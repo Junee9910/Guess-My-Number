@@ -11,7 +11,6 @@ function displayMessage(message){
 function setScore(score){
     document.querySelector('.score').textContent=score;
 }
-document.querySelector('.number').textContent='?';
 
 
 document.querySelector('.check').addEventListener('click',function(){
