@@ -24,6 +24,7 @@ document.querySelector('.check').addEventListener('click',function(){
     {
         displayMessage('👏 Correct Number!');
         document.querySelector('body').style.backgroundColor = '#60b347';
+        setScore(secretNumber);
 
         if(highScore<score)
         {
